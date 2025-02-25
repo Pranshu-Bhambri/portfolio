@@ -135,8 +135,8 @@ const About = () => {
         variants={contentVariants}
       >
         I’m passionate about software development and creating impactful
-        solutions. With a strong foundation in full-stack development, I
-        continuously strive to learn and innovate. I strive to:
+        solutions. With a strong foundation in full-stack development, I’m
+        always eager to learn and innovate. I strive to:
       </motion.p>
 
       {/* Detailed Points */}
