@@ -106,7 +106,7 @@ const Contact = () => {
           transition={{ duration: 1, ease: "easeInOut" }}
           className="inline-block overflow-hidden"
         >
-          Contact
+          Contact Me
         </motion.span>
       </motion.h2>
 
