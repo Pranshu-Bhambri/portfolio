@@ -28,7 +28,7 @@ const BackToTopButton = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-6 right-6 p-4 z-[150] rounded-xl transition duration-300 ${ isVisible ? "opacity-100" : "opacity-0 pointer-events-none"} text-white shadow-md bg-blue-600 dark:bg-gray-800 dark:text-gray-200 hover:bg-blue-700 dark:hover:bg-gray-700`}
+      className={`fixed bottom-12 right-6 p-4 z-[150] rounded-xl transition duration-300 ${ isVisible ? "opacity-100" : "opacity-0 pointer-events-none"} text-white shadow-md bg-blue-600 dark:bg-gray-800 dark:text-gray-200 hover:bg-blue-700 dark:hover:bg-gray-700`}
     >
       <motion.div className="text-2xl"
         animate={{ y: [0, -5, 0] }}

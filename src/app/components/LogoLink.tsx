@@ -76,18 +76,18 @@ const LogoLink = (props: any) => {
           : props.place === "header"
           ? "opacity-0 pointer-events-none"
           : ""
-      } cursor-default transition-opacity duration-300`}
+      } cursor-default pointer-events-none select-none transition-opacity duration-300`}
     >
       <span
-        className={`${styles.logoTag} ${styles.logoTagOpen} text-xl sm:text-2xl md:text-3xl`}
+        className={`${styles.logoTag} ${styles.logoTagOpen} text-xl sm:text-2xl`}
       >{`<`}</span>
       <span
-        className={`text-xl sm:text-2xl md:text-3xl p-2`}
+        className={`text-xl sm:text-2xl p-2`}
       >
         Pranshu Bhambri
       </span>
       <span
-        className={`${styles.logoTag} ${styles.logoTagClose} text-xl sm:text-2xl md:text-3xl`}
+        className={`${styles.logoTag} ${styles.logoTagClose} text-xl sm:text-2xl`}
       >{`/>`}</span>
     </span>
   );
