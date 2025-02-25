@@ -1,0 +1,29 @@
+.projectCard:hover {
+  transform: scale(1.05) !important;
+  transition: all 0.5s ease-in-out;
+}
+
+:global(:root.dark) .projectCard:hover{
+  box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+.visitBtn:hover .arrowIcon{
+  transform: translateX(8px);
+}
+
+.arrowIcon{
+  transition: transform 0.3s ease-in-out;
+}
+
+/* @media (max-width: 639px) {
+  .projectCard{
+    position: sticky;
+    top: 100px;
+  }
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  .projectCard:hover {
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.1);
+  }
+} */

@@ -1,0 +1,55 @@
+.sidebar{
+    box-shadow: -4px 0px 12px #ededed;
+}
+
+.logo span, .logoText {
+  /* font-family: "Agustina Regular", sans-serif; */
+  display: inline-block;
+  --tw-drop-shadow: drop-shadow(0 0 0.3rem #ffffff70);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo .logoTag {
+  /* color: #8b2cff; */
+  color: #0141ff;
+  /* font-size: 20px; */
+}
+
+/* .logo:hover .logoText {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+} */
+
+.logo:hover .logoTagOpen {
+  transform: translateY(6px); /* Move `<` down */
+}
+
+.logo:hover .logoTagClose {
+  transform: translateY(-6px); /* Move `/>` up */
+}
+
+.sidebarTabs li{
+    margin: 8px;
+    transition: all 0.3s;
+}
+
+.sidebarTabs li:hover{
+    color: #0141ff;
+}
+
+.sidebarTabs li:hover{
+    --tw-drop-shadow: drop-shadow(0 0 0.3rem #ffffff70);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+/* @media (max-width: 300px) {
+  .logo{
+    display: none;
+  }
+} */

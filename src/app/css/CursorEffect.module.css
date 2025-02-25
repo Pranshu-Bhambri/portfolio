@@ -1,0 +1,27 @@
+.cursorGlow {
+    display: none;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    /* background: radial-gradient(circle, #0141ff 0%, transparent 100%); */
+    filter: blur(30px);
+    opacity: 0.5;
+    z-index: 500;
+    pointer-events: none;
+}
+
+:global(:root.dark) .cursorGlow {
+    display: block !important;
+    background: radial-gradient(circle, #0141ff 0%, transparent 100%);
+}
+
+/* :root.dark .cursorGlow{
+    display: block;
+    background: radial-gradient(circle, #0141ff 0%, transparent 100%);
+} */
+
+/* @media (prefers-color-scheme: light) {
+    .cursorGlow {
+        display: none;
+    }
+} */

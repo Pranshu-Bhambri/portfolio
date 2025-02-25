@@ -1,0 +1,109 @@
+/* .skillBox{
+    user-select: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.skillBox:hover{
+    transform: scale(1.1) !important;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+} */
+
+/* In your CSS module (e.g., styles.module.css) */
+.skillBox:hover {
+  transform: scale(1.05) !important;
+  /* box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); */
+}
+
+:global(:root.dark) .skillBox:hover{
+  box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+/* .skillsContainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+} */
+
+.skillsContainer:before,
+.skillsContainer:after {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.skillsContainer:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #f7f8f9);
+}
+
+:global(:root.dark) .skillsContainer:before{
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #0c0f14);
+}
+
+.skillsContainer:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #f7f8f9);
+}
+
+:global(:root.dark) .skillsContainer:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #0c0f14);
+}
+
+.skillsSlider1{
+  animation: 15s slide1 infinite linear;
+}
+
+.skillsSlider2{
+  animation: 15s slide2 infinite linear;
+}
+
+.skillsContainer:hover .skillsSlider1, .skillsContainer:hover .skillsSlider2{
+  animation-play-state: paused;
+}
+
+/* @keyframes slide1 {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slide2 {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+} */
+
+@keyframes slide1 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slide2 {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* @media (prefers-color-scheme: dark) {
+  .skillBox:hover {
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.1);
+  }
+} */
