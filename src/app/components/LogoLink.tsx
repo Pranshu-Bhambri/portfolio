@@ -79,15 +79,15 @@ const LogoLink = (props: any) => {
       } cursor-default transition-opacity duration-300`}
     >
       <span
-        className={`${styles.logoTag} ${styles.logoTagOpen} text-2xl md:text-3xl`}
+        className={`${styles.logoTag} ${styles.logoTagOpen} text-xl sm:text-2xl md:text-3xl`}
       >{`<`}</span>
       <span
-        className={`text-2xl md:text-3xl p-2`}
+        className={`text-xl sm:text-2xl md:text-3xl p-2`}
       >
         Pranshu Bhambri
       </span>
       <span
-        className={`${styles.logoTag} ${styles.logoTagClose} text-2xl md:text-3xl`}
+        className={`${styles.logoTag} ${styles.logoTagClose} text-xl sm:text-2xl md:text-3xl`}
       >{`/>`}</span>
     </span>
   );

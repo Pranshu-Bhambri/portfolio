@@ -94,7 +94,7 @@ const Projects = () => {
 
       if (sidebarOpen) {
         setInViewAmount(
-          contentWidth < 640 ? 0.125 : contentWidth < 1024 ? 0.25 : 0.5
+          contentWidth < 640 ? 0 : contentWidth < 1024 ? 0.25 : 0.5
         );
 
         // contentWidth instead of screenWidth
@@ -107,7 +107,7 @@ const Projects = () => {
         // }
       } else {
         setInViewAmount(
-          screenWidth < 640 ? 0.2 : contentWidth < 1024 ? 0.3 : 0.5
+          screenWidth < 640 ? 0 : contentWidth < 1024 ? 0.25 : 0.5
         );
       }
     };

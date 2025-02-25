@@ -118,7 +118,7 @@ const About = () => {
       </motion.h2>
 
       {/* Overview */}
-      <motion.p
+      {/* <motion.p
         className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-2xl text-center leading-relaxed"
         initial="hidden"
         animate={isAboutInView ? "visible" : "hidden"}
@@ -127,6 +127,16 @@ const About = () => {
         I’m passionate about software development and creating impactful
         solutions. With a strong foundation in full-stack development, I
         continuously strive to learn and innovate.
+      </motion.p> */}
+      <motion.p
+        className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-2xl text-center leading-relaxed"
+        initial="hidden"
+        animate={isAboutInView ? "visible" : "hidden"}
+        variants={contentVariants}
+      >
+        I’m passionate about software development and creating impactful
+        solutions. With a strong foundation in full-stack development, I
+        continuously strive to learn and innovate. I strive to:
       </motion.p>
 
       {/* Detailed Points */}
