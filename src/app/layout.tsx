@@ -35,12 +35,12 @@ export const ubuntu = Ubuntu({
 
 export const metadata: Metadata = {
   title: "Pranshu Bhambri | Portfolio",
-  description: "Pranshu Bhambri | Full-stack developer, passionate about building modern web applications.",
+  description: "Pranshu Bhambri | Software Developer, passionate about building modern web applications.",
   keywords: ["Pranshu Bhambri", "portfolio", "Pranshu Bhambri portfolio","developer", "software engineer", "nextjs portfolio"],
   authors: [{ name: "Pranshu Bhambri" }],
   openGraph: {
     title: "Pranshu Bhambri | Portfolio",
-    description: "Pranshu Bhambri | Full-stack developer, passionate about building modern web applications.",
+    description: "Pranshu Bhambri | Software Developer, passionate about building modern web applications.",
     url: "https://pranshu-bhambri.vercel.app/",  // Replace with your actual website URL
   },
   twitter: {
