@@ -101,7 +101,7 @@ const Home = () => {
               </motion.span>
             );
           })} */}
-          {Array.from("Hi, this is PRANSHU!".split(" ")).map(
+          {Array.from("Hi, this is PRANSHU BHAMBRI!".split(" ")).map(
             (word, wordIndex, words) => (
               <span key={wordIndex} className="inline-block">
                 {Array.from(word).map((char, index) => {
