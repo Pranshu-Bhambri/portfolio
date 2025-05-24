@@ -151,12 +151,11 @@ const Home = () => {
             className={`inline-block ${isSmallWidth ? 'text-3xl' : 'text-2xl'} mt-6`}
             strings={[
               "I am a Software Developer 🚀",
-              "Crafting solutions across the full stack ⚙️",
+              "Crafting solutions across full stack ⚙️",
               "Always learning and growing 📚",
-              "Let’s build something impactful together ✨",
             ]}
             typeSpeed={60}
-            backSpeed={40}
+            backSpeed={50}
             backDelay={1000}
             loop
           />
