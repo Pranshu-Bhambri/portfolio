@@ -138,7 +138,7 @@ const Home = () => {
               duration: 2.5,
               ease: "easeInOut",
               times: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 1], // Even timing
-              delay: 2,
+              delay: 2.5,
             }}
           >
             👋
