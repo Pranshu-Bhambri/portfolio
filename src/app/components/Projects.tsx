@@ -38,7 +38,7 @@ const projects = [
       "Redis",
     ],
     buttonText: "View Live Project",
-    href: "https://the-amazon-clone-by-pb.vercel.app/",
+    href: "https://the-amazonclone-by-pb.vercel.app/",
   },
   {
     id: 3,
@@ -205,12 +205,12 @@ const Projects = () => {
               <div className="mt-auto">
                 <a
                   href={project.href}
-                  className="inline-block"
+                  className="inline-block mt-4"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button
-                    className={`${styles.visitBtn} mt-4 flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-md font-medium text-sm hover:bg-blue-700 transition relative overflow-hidden`}
+                    className={`${styles.visitBtn} flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-md font-medium text-sm hover:bg-blue-700 transition relative overflow-hidden`}
                   >
                     {project.buttonText}
                     <span className={`${styles.arrowIcon} inline-block`}>
