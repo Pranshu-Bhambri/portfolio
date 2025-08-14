@@ -150,9 +150,9 @@ const Home = () => {
           <ReactTyped
             className={`inline-block ${isSmallWidth ? 'text-3xl' : 'text-2xl'} mt-6`}
             strings={[
-              "I am a Software Developer 🚀",
+              "I am a Software Developer 💻",
               "Crafting solutions across full stack ⚙️",
-              "Always learning and growing 📚",
+              "Always learning and growing 🚀",
             ]}
             typeSpeed={60}
             backSpeed={50}

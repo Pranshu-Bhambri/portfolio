@@ -19,7 +19,7 @@ const projects = [
       "Automated crime data extraction using Selenium, OCR, Regex, and Pandas, combined with DBSCAN clustering to identify high-crime zones and trends.",
     image: crimeHotspotsDetectionImage,
     technologies: ["Python", "Selenium", "OCR", "Regex", "Pandas", "DBSCAN"],
-    buttonText: "View on GitHub",
+    buttonText: "View Source",
     href: "https://github.com/Pranshu-Bhambri/Crime-Data-Analysis-Hotspot-Detection",
   },
   {
@@ -37,7 +37,7 @@ const projects = [
       "JWT",
       "Redis",
     ],
-    buttonText: "View Live Project",
+    buttonText: "View Live",
     href: "https://the-amazonclone-by-pb.vercel.app/",
   },
   {
@@ -47,7 +47,7 @@ const projects = [
       "An interactive banking platform allowing users to transfer money, check balances, and track transactions.",
     image: basicBankingSystemImage,
     technologies: ["JavaScript", "EJS", "Node.js", "Express.js", "MongoDB"],
-    buttonText: "View on GitHub",
+    buttonText: "View Source",
     href: "https://github.com/Pranshu-Bhambri/Banking-System",
   },
 ];
